@@ -14,7 +14,7 @@ CORS(app)  # Enable CORS for all routes
 logging.basicConfig(level=logging.INFO)
 
 # Model path (Render clones the repo, so the model will be present)
-MODEL_PATH = "./DenseNet121.h5"
+MODEL_PATH = "./end.h5"
 UPLOAD_FOLDER = "static/uploads/"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
